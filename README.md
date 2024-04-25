@@ -23,7 +23,7 @@ Este proyecto es un organizador de archivos desarrollado en C++. Su objetivo es 
 
 3. **Ejecución del programa**: Una vez que el programa se ejecuta, organiza automáticamente los archivos según los criterios especificados en la configuración.
 
-![Resultado de la ejecución](Imgs/Log.png)
+![Resultado de la ejecución](Imgs/log.png)
 
 4. **Resultado**: Después de la ejecución, los archivos se encuentran organizados en las carpetas de destino según los criterios definidos.
 
