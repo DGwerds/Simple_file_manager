@@ -1,0 +1,23 @@
+//Carpeta desde donde se buscaran los archivos a mover
+1. Carpeta a organizar
+C:\Users\santi\Downloads
+
+
+
+//Ejemplo: exe txt pdf cpp
+2. Extenciones a buscar (usa * para buscar todos los archivos, separados por espacios)
+*
+
+
+
+//Ejemplo: algebra calculo .png
+3. palabras clave (No importan las mayusculas o minusculas)
+.pdf .exe .csv
+
+
+
+//El orden y cantidad de carpetas de destino debe ser la misma que las palabras clave
+4. carpetas destino
+C:\Users\santi\Downloads\pdfs
+C:\Users\santi\Downloads\exes
+C:\Users\santi\Downloads\csvs
