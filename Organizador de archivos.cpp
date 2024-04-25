@@ -147,7 +147,6 @@ int mover_archivos(vector<string> archivos_a_mover){
 			linea_plus++;
 		}
 		string carpeta_final = IrLinea('4', linea_plus) + "\\";
-//		cout << cantidad << "  " << archivos_a_mover.size() << endl;
 
 		string archivo = carpeta_origen + archivos_a_mover[cantidad];
 		string archivo_final = carpeta_final + archivos_a_mover[cantidad];
@@ -159,7 +158,6 @@ int mover_archivos(vector<string> archivos_a_mover){
 		strcpy(nuevo, archivo_final.c_str());
 
 		if (rename(viejo, nuevo) != 0)
-//			cout << "Error" << endl;
 			errores++;
 		else{
 			cout << "Se a movido: " << archivos_a_mover[cantidad] << endl;
